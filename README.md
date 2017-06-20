@@ -124,8 +124,8 @@ Anything else will be true.
 
 ```yaml
 context: {a: null, b: [], c: {}, d: "", e: 0, f: false}
-template: {$if: 'a || b || c || d || e || f', then: "uh oh", else: "falsey" }
-result: "falsey"
+template: {$if: 'a || b || c || d || e || f', then: "uh oh", else: "falsy" }
+result: "falsy"
 ```
 
 ### `$if` - `then` - `else`
@@ -317,7 +317,7 @@ of the context.
 * `max(a, b, ..)` -- the largest of the arguments
 * `sqrt(x)`, `ceil(x)`, `floor(x)`, `abs(x)` -- mathematical functions
 * `lowercase(s)`, `uppercase(s)` -- convert string case
-* `str(x)` -- convert string, number, boolean, or array to string
+* `str(x)` -- convert string, number, goolean, or array to string
 * `len(x)` -- length of a string or array
 
 ### Custom Functions
