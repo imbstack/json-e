@@ -16,7 +16,7 @@
     "js-yaml": "^3.10.0",
     "lodash": "^4.17.4",
     "postcss-cssnext": "^3.0.2",
-    "raw-loader": "^0.5.1",
+    "raw-loader": "^2.0.0",
     "react": "^16.2.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.2.0",
