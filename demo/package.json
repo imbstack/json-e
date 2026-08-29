@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@neutrinojs/react": "^8.0.14",
-    "neutrino": "^8.0.14"
+    "@neutrinojs/react": "^9.0.0",
+    "neutrino": "^9.0.0"
   },
   "scripts": {
     "start": "neutrino start",
@@ -10,7 +10,7 @@
   },
   "//": "the codemirror fork is due to https://github.com/JedWatson/react-codemirror/issues/106#issuecomment-302674960",
   "dependencies": {
-    "@neutrinojs/clean": "^8.0.14",
+    "@neutrinojs/clean": "^9.0.0",
     "@skidding/react-codemirror": "1.0.2",
     "dedent-js": "^1.0.1",
     "js-yaml": "^3.10.0",
